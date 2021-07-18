@@ -1,33 +1,25 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Home } from './Home';
-import { GameArea } from './GameArea';
-import { Subscription } from './Subscription';
-import { GameDescription} from './components/GameDescription';
-import { NoMatch } from './NoMatch';
-import { Layout } from './components/Layout';
-import { NavigationBar } from './components/NavigationBar';
+import React from 'react';
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom"
+import NavBar from "./components/navbar"
+import Home from './components/home'
+import Classes from './components/classes'
+import Blog from './components/blog'
+import Membership from './components/membership'
+//import logo from './images/logo.png';
+import './App.css';
 
-
-class App extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <Router>
-          <NavigationBar />
-          <Layout>
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/gameArea" component={GameArea} />
-              <Route path="/subscription" component={Subscription} />
-              <Route path="/gameInfo" component={GameDescription} />
-              <Route component={NoMatch} />
-            </Switch>
-          </Layout>
-        </Router>
-      </React.Fragment>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <NavBar/>
+        <Home/>
+        <Classes/>
+        <Blog/>
+        <Membership/>
+      </header>
+    </div>
+  );
 }
 
 export default App;
