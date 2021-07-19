@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Valorant",
+        "description": "Valorant is a team-based tactical shooter and first-person shooter set in the near-future. Players assume the control of agents, characters who come from a plethora of countries and cultures around the world.",
+        "year": 2020,
+        "imageUrl": "https://www.dailyesports.gg/wp-content/uploads/2020/04/Valorant-Beta-1200x900.jpg",
+        "price": 5.99,
+        "rating": "85%"
+    },
+    {
+        "id": 2,
+        "title": "Breath of the Wild",
+        "description": "Breath of the Wild is an action-adventure game set in an open world where players are tasked with exploring the kingdom of Hyrule while controlling Link. ... Link can procure items from the environment, including weapons, food, and other resources. Unlike previous Zelda games, weapons and shields will degrade over time.",
+        "year": 2017,
+        "imageUrl": "https://www.zelda.com/breath-of-the-wild/assets/media/wallpapers/desktop-2.jpg",
+        "price": 49.99,
+        "rating": "95%"
+    },
+    {
+        "id": 3,
+        "title": "Minecraft",
+        "description": "Minecraft is a Lego style adventure game which has massively increased in popularity since it was released two years ago. It now has more than 33 million users worldwide. The video game puts players in a randomly-generated world where they can create their own structures and contraptions out of textured cubes",
+        "year": 2009,
+        "imageUrl": "https://articles.gamerheadquarters.com/images/screenshots/minecraft/one12.jpg",
+        "price": 10.89,
+        "rating": "90%"
+    },
+    {
+        "id": 4,
+        "title": "The Elder Scrolls V: Skyrim",
+        "description": "The Elder Scrolls V: Skyrim is an action role-playing video game developed by Bethesda Game Studios and published by Bethesda Softworks. ... The game's main story revolves around the player's character, the Dragonborn, on their quest to defeat Alduin the World-Eater, a dragon who is prophesied to destroy the world.",
+        "year": 2011,
+        "imageUrl": "https://i.pinimg.com/originals/79/65/e2/7965e21fe9592e6cda6b1762fc763886.jpg",
+        "price": 59.99,
+        "rating": "80%"
+    },
+    {
+        "id": 5,
+        "title": "The Witcher 3: Wild Hunt",
+        "description": "The Witcher® 3: Wild Hunt is a story-driven, next-generation open world role-playing game, set in a visually stunning fantasy universe, full of meaningful choices and impactful consequences. You play as Geralt of Rivia, a monster hunter tasked with finding a child from an ancient prophecy.",
+        "year": 2015,
+        "imageUrl": "https://i.pinimg.com/originals/0c/97/5c/0c975cce4b6258b6c1161cac99db004c.jpg",
+        "price": 79.99,
+        "rating": "85%"
+    },
+    {
+        "id": 6,
+        "title": "Red Dead Redemption 2",
+        "description": "Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and is a prequel to the 2010 game Red Dead Redemption.",
+        "year": 2018,
+        "imageUrl": "https://lh3.googleusercontent.com/HCUkD69MAHEOj84Yi7Kb5vxHpCePTsmQI4g9vYuVPUo-87cWE6ZZIk0tiyYzaiS9zaAFMTXRNYJaaRczRN-yQYw",
+        "price": 89.99,
+        "rating": "70%"
+    },
+    {
+        "id": 7,
+        "title": "Assassin's Creed Odyssey",
+        "description": "Assassin's Creed Odyssey is an action role-playing video game developed by Ubisoft Quebec and published by Ubisoft. It is the eleventh major installment, and 21st overall, in the Assassin's Creed series and the successor to 2017's Assassin's Creed Origins.",
+        "year": 2018,
+        "imageUrl": "https://images8.alphacoders.com/927/thumb-1920-927077.jpg",
+        "price": 59.99,
+        "rating": "45%"
+    }
+]
